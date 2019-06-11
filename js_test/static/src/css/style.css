@@ -1,0 +1,19 @@
+.o_test{
+    background: #855173;
+    color: #ffffff;
+    border-radius: 5px;
+    padding-left: 15px;
+
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+
+/* Standard syntax */
+@keyframes example {
+  0%   {background-color: #ad6e9a;}
+  25%  {background-color: #c2548e;}
+  50%  {background-color: #ff5d5d;}
+  100% {background-color: #80003f;}
+}

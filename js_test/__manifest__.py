@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+{
+    'name': 'js module',
+    'author': 'Muhamed Abd El-Rhman',
+    'website': 'www.linkedin.com/in/muhamed-profile/',
+    'version': '1.0',
+    'summary': '',
+    'category': '',
+    'license': '',
+    'price': 0.0,
+    'currency': '',
+    'sequence': 1,
+    'installable': True,
+    'application': True,
+    'auto_install': False,
+    'depends': ['base', 'document'],
+    'data': [
+        # 'security/ir.model.access.csv',
+        # 'reports/_report.xml',
+        # 'wizards/_wizard.xml',
+        # 'views/_view.xml',
+        # 'data/_data.xml',
+        'static/src/xml/template.xml',
+    ],
+    'qweb': [
+        'static/src/xml/widget_template.xml',
+    ],
+    'demo': [],
+    #'external_dependencies': {'python': [''],},
+}
